@@ -1,0 +1,132 @@
+body {
+    background-color: lightblue;
+  }
+
+
+  /* nav başlangıç    footer burada  */
+
+.navbar {
+    background-color: coral;
+    
+    height: 40px;
+    font-size: large;
+    
+        display: block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+        
+        }
+li.navbar{
+    display: inline;
+    float: left;
+    padding:0px 10px;
+    
+    
+}
+.footerlist{
+    background-color: coral;
+    
+    height: 40px;
+    font-size: large;
+    
+        
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+li.footerlist{
+    
+    padding:0px 15px;
+}
+
+li a {
+    /* padding:6px 7px; */
+    color: cornsilk;
+    float: left;
+    display: inline;
+    text-decoration:none;
+    
+    padding:0px 10px;
+    
+}
+
+li a:hover{ background-color: rgb(56, 2, 2);}
+
+/* nav bitiş */
+
+
+/* section başlangıç */
+
+section {
+    
+    
+    height: 270px;
+    border:double;
+    overflow:auto;
+}
+
+
+.secart {
+    display: inline;
+    width: 200px;
+    clear:left;
+    float:left
+}
+
+
+#secimg2{
+    display: inline;
+    float: right
+}
+
+/* section bitiş */
+
+/* main başlangıç */
+main{
+    border: 2px brown;
+    border-style: double;
+    width: 600px;
+    height: 1000px;
+    margin: auto;
+    overflow: scroll;
+}
+
+.img-main{
+    margin-left: 150px;
+    
+    
+}
+
+.p-main{
+    margin-left: 150px;
+    color: crimson;
+}
+/* main bitiş */
+
+
+/* aside başlangıç */
+
+aside{
+    border: double crimson 8px;
+    width: 15%; 
+    
+    position: fixed;
+    bottom: 75px;
+    right: 25px;
+}
+
+.aside-list{
+    
+    
+}
+
+/* aside bitiş */
+
+
+table{
+    margin: auto;
+    width: 100%;
+}
