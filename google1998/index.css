@@ -1,0 +1,73 @@
+logo{
+      display: block;
+      text-align: center;
+}
+
+search-area{
+      height: 80px;
+      width: 90%;
+      background-color: #Eeeeee;
+      display: block;
+      text-align: center;
+      margin:auto;
+}
+
+input{
+      display: block;
+      margin: auto;
+      margin-top: 0px;
+}
+search-area>p{
+      margin: auto;
+      margin-top: 0px;
+}
+
+center{
+      display: block;
+      width: 90%;
+      height:100px;
+      margin:auto;
+      font-size: small;
+      
+      
+
+}
+
+
+box1{
+background-color: #7ee5da ;
+display: block;
+width: 33.2%;
+height:110px;
+float:left;
+border: solid 0.2px white;
+
+}
+
+box2{
+background-color: #70ccc2;
+display: block;
+width: 33.2%;
+height:110px;
+float:left;
+border: solid 0.2px white;
+}
+
+box3{
+background-color: #62B3aa;
+display: block;   
+width: 33.2%;
+height:110px;
+float:left;
+border: solid 0.2px white;
+}
+
+box3>input{
+      display: inline;
+}
+
+#sonyazi{
+      margin-top: 0px;
+      clear: left;
+      display: block;
+}
